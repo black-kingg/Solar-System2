@@ -26,7 +26,7 @@ container.appendChild(renderer.domElement);
 // Load the GLTF model and initialize the scene
 loader = new THREE.GLTFLoader();
 function init() {
-  loader.load("new/scene.gltf", function (gltf) {
+  loader.load("3d/scene.gltf", function (gltf) {
     scene.add(gltf.scene);
 
     model = gltf.scene;
